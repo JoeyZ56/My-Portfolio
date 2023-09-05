@@ -1,7 +1,7 @@
 import "./Work.scss";
 import { useState, useEffect } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
@@ -42,7 +42,7 @@ const Work = () => {
     <>
       <h2 className="head_text">
         {" "}
-        My creative <span> Portfolio</span>{" "}
+        Exploring creativity: <span> My portfolio</span>
       </h2>
       <div className="app__work-filter">
         {["React", "Javascript", "MERN Stack", "All"].map((item, index) => (
@@ -110,7 +110,7 @@ const Work = () => {
               </p>
 
               <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tags}</p>
+                <p className="p-text">{work.tags[0]}</p>
               </div>
             </div>
           </div>

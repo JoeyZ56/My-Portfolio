@@ -21,9 +21,15 @@ import profilepic1 from "../assests/profilepic1.jpg";
 import frontend1 from "../assests/frontend1.jpeg";
 import backend1 from "../assests/backend1.jpeg";
 import fullstack4 from "../assests/fullstack4.webp";
+import jzLogo2 from "../assests/jzLogo2.png";
 
 import code from "../assests/code.jpg";
 import name1 from "../assests/name1.jpeg";
+import space from "../assests/space.mp4";
+import techworld from "../assests/techworld.jpg";
+import techworld1 from "../assests/techworld1.png";
+import tech from "../assests/tech.jpeg";
+import HBWP from "../assests/HBWP.png";
 
 export default {
   email,
@@ -51,4 +57,10 @@ export default {
   frontend1,
   backend1,
   fullstack4,
+  jzLogo2,
+  space,
+  techworld,
+  tech,
+  techworld1,
+  HBWP,
 };

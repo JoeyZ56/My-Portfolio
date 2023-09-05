@@ -10,10 +10,9 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        {/* //get own images */}
-        <img src={images.joey} alt="logo" />
-      </div>
+      {/* <div className="app__navbar-logo">
+        <img src={images.jzLogo2} alt="logo" />
+      </div> */}
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>

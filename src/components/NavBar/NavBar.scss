@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  // padding: 1rem 2rem;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -14,22 +14,22 @@
   z-index: 2;
 }
 
-.app__navbar-logo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+// .app__navbar-logo {
+//   display: flex;
+//   justify-content: flex-start;
+//   align-items: center;
 
-  img {
-    width: 12%; //12
-    height: 12%; //12
-    border-radius: 10%;
+//   img {
+//     width: 150px;
+//     height: 20px;
+//     border-radius: 10%;
 
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
-  }
-}
+//     @media screen and (min-width: 2000px) {
+//       width: 180px;
+//       height: 40px;
+//     }
+//   }
+// }
 
 .app__navbar-links {
   flex: 1;
@@ -86,7 +86,7 @@
   justify-content: center;
   align-items: center;
 
-  background: var(--secondary-color);
+  background: var(--black-color);
 
   svg {
     width: 70%;
@@ -108,8 +108,8 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    background: url("../../assests/fullbodyme.jpeg");
-    background-color: var(--white-color);
+    background: url("../../assests/HBWP.png");
+    background-color: lightgrey;
     background-size: cover;
     background-repeat: repeat;
 
@@ -156,6 +156,7 @@
       display: none;
     }
   }
+  //navbar menu
   @media screen and (min-width: 900px) {
     display: none;
   }

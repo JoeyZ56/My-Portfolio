@@ -19,14 +19,14 @@ const About = () => {
     <>
       <h2 className="head_text">
         {" "}
-        I know that{" "}
+        Crafting{" "}
         <span>
           {" "}
-          <i> Good Apps </i>
+          <i> tomorrow's possibilities </i>
         </span>{" "}
-        means
+        with
         <span>
-          <i> Good buisness </i>
+          <i> code today </i>
         </span>
       </h2>
       <div className="app__profiles">
