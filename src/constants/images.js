@@ -1,7 +1,7 @@
 import api from "../assests/api.png";
 import css from "../assests/css.png";
 import email from "../assests/email.png";
-import fullbodyme from "../assests/fullbodyme.jpeg";
+import fbme from "../assests/fbme.jpeg";
 import git from "../assests/git.png";
 import html from "../assests/html.png";
 import javascript from "../assests/javascript.png";
@@ -25,11 +25,13 @@ import jzLogo2 from "../assests/jzLogo2.png";
 
 import code from "../assests/code.jpg";
 import name1 from "../assests/name1.jpeg";
-import space from "../assests/space.mp4";
+
 import techworld from "../assests/techworld.jpg";
 import techworld1 from "../assests/techworld1.png";
 import tech from "../assests/tech.jpeg";
 import HBWP from "../assests/HBWP.png";
+import bgWhite from "../assests/bgWhite.png";
+import hbblue from "../assests/hbblue.jpeg";
 
 export default {
   email,
@@ -43,7 +45,7 @@ export default {
   python,
   react,
   sass,
-  fullbodyme,
+  fbme,
   Profileme,
   Profileme2,
   electricPanel,
@@ -58,9 +60,10 @@ export default {
   backend1,
   fullstack4,
   jzLogo2,
-  space,
+  bgWhite,
   techworld,
   tech,
   techworld1,
   HBWP,
+  hbblue,
 };
