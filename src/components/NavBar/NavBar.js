@@ -5,6 +5,8 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 //from framer-motion
 import { motion } from "framer-motion";
 import { useState } from "react";
+import PDFresume from "../PDFresume/PDFresume";
+// import ThemeToggle from "../ThemeToggle/ThemeToggle";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,6 +15,7 @@ const NavBar = () => {
       {/* <div className="app__navbar-logo">
         <img src={images.jzLogo2} alt="logo" />
       </div> */}
+      {/* <ThemeToggle /> */}
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
@@ -43,6 +46,8 @@ const NavBar = () => {
           </motion.div>
         )}
       </div>
+
+      <PDFresume />
     </nav>
   );
 };

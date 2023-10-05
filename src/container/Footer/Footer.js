@@ -46,8 +46,8 @@ const Footer = () => {
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
           {/* //"mailto" is a specail property that takes you to a link to email the person */}
-          <a href="mailto:jzazzi56@gmail.com" className="p-text">
-            jzazzi56@gmail.com
+          <a href="mailto:jzazzicoding@gmail.com" className="p-text">
+            jzazzicoding@gmail.com
           </a>
         </div>
         <div className="app__footer-card">

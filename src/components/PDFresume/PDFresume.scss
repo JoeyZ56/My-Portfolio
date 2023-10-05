@@ -1,0 +1,16 @@
+.pdf__button {
+  color: var(--black-color);
+  text-decoration: none;
+
+  flex-direction: column;
+
+  text-transform: uppercase;
+  font-weight: 900;
+
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    box-shadow: 0 0 5px #fef4f5;
+    color: var(--secondary-color);
+    cursor: pointer;
+  }
+}

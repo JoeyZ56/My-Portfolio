@@ -1,15 +1,11 @@
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <a
-          href="https://www.facebook.com/joey.zazzi.12"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaFacebook />
+        <a href="https://github.com/JoeyZ56" target="_blank" rel="noreferrer">
+          <FaGithub />
         </a>
       </div>
       <div>
