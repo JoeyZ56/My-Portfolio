@@ -15,8 +15,8 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="app" id={theme}>
-        <NavBar />
-        <>
+        <NavBar toggleTheme={toggleTheme} />
+        {/* <>
           <label className="app__toggle-label">
             <input
               className="app__toggle-input"
@@ -27,7 +27,7 @@ const App = () => {
 
             <div className="app__toggle-fill"></div>
           </label>
-        </>
+        </> */}
         <Header />
         <About />
         <Work />

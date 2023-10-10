@@ -2,7 +2,9 @@
   color: var(--black-color);
   text-decoration: none;
 
-  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   text-transform: uppercase;
   font-weight: 900;
@@ -12,5 +14,16 @@
     box-shadow: 0 0 5px #fef4f5;
     color: var(--secondary-color);
     cursor: pointer;
+  }
+  @media screen and (max-width: 1050px) {
+    margin-right: 310px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-right: 110px;
+  }
+
+  @media screen and (max-width: 670px) {
+    margin-right: 110px;
   }
 }

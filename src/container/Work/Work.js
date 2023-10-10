@@ -40,10 +40,10 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head_text">
+      <h1 className="head_text">
         {" "}
         Exploring creativity: <span> My portfolio</span>
-      </h2>
+      </h1>
       <div className="app__work-filter">
         {["React", "Javascript", "MERN Stack", "All"].map((item, index) => (
           <div
