@@ -195,6 +195,18 @@
 }
 #theme2 {
   background-color: #364c70;
+  h2 {
+    color: #fff;
+  }
+  p {
+    color: #fff;
+  }
+  a {
+    color: black;
+    &:hover {
+      color: #fef4f5;
+    }
+  }
 }
 .app__toggle-label {
   --width: 40px;

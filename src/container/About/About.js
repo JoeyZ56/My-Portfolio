@@ -17,7 +17,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <h1 className="head_text">
+      <h2 className="head_text">
         {" "}
         Crafting{" "}
         <span>
@@ -28,7 +28,7 @@ const About = () => {
         <span>
           <i> code today </i>
         </span>
-      </h1>
+      </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
