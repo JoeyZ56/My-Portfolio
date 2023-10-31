@@ -35,7 +35,7 @@ const NavBar = ({ toggleTheme }) => {
         </label>
       </>
 
-      <ul className="app__navbar-links">
+      <ul className="app__navbar-links" id="nav_links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
