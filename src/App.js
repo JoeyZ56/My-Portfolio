@@ -16,18 +16,7 @@ const App = () => {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="app" id={theme}>
         <NavBar toggleTheme={toggleTheme} />
-        {/* <>
-          <label className="app__toggle-label">
-            <input
-              className="app__toggle-input"
-              type="checkbox"
-              value={theme}
-              onClick={toggleTheme}
-            />
 
-            <div className="app__toggle-fill"></div>
-          </label>
-        </> */}
         <Header />
         <About />
         <Work />

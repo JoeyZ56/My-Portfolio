@@ -33,6 +33,10 @@ import HBWP from "../assests/HBWP.png";
 import bgWhite from "../assests/bgWhite.png";
 import hbblue from "../assests/hbblue.jpeg";
 
+import MERNLogo from "../assests/MERNLogo.png";
+import ReactLogo from "../assests/ReactLogo.png";
+import NodeLogo from "../assests/NodeLogo.png";
+
 export default {
   email,
   mobile,
@@ -66,4 +70,7 @@ export default {
   techworld1,
   HBWP,
   hbblue,
+  MERNLogo,
+  ReactLogo,
+  NodeLogo,
 };
