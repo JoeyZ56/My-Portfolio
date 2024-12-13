@@ -6,7 +6,7 @@ const DownloadButton = () => {
     const pdfUrl = "/current-resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "MyResume.pdf";
+    link.download = "Joey-Zazzi-Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
