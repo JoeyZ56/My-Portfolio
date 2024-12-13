@@ -3,7 +3,7 @@ import "./PDFresume.scss";
 
 const DownloadButton = () => {
   const handleDownload = () => {
-    const pdfUrl = "/MyResume.pdf";
+    const pdfUrl = "/current-resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "MyResume.pdf";
