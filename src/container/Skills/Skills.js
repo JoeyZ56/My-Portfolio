@@ -57,25 +57,30 @@ const Skills = () => {
               </div>
               <motion.div className="app__skills-exp-works">
                 {experience.works.map((work, index) => (
-                  <>
+                  <React.Fragment key={`work_${index}`}>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tip
-                      data-for={work.name}
-                      key={`work_${index}`}
+                      data-for={`work-tooltip-${work.name}-${work.company}-${index}`} // Ensure unique ID
                     >
                       <h3 className="bold-text">{work.name}</h3>
                       <h4 className="p-text">{work.company}</h4>
+                      {console.log(
+                        `Name: ${work.name}, Desc: ${work.desc}`
+                      )}{" "}
+                      {/* Debugging */}
                     </motion.div>
+
+                    {/* Tooltip with unique ID */}
                     <Tooltip
-                      id={work.name}
-                      anchorSelect="h4"
-                      content={work.desc}
+                      id={`work-tooltip-${work.name}-${work.company}-${index}`} // Match data-for
+                      anchorSelect={`[data-for="work-tooltip-${work.name}-${work.company}-${index}"]`} // Target unique motion.div
+                      content={work.desc} // Correct description for each work
                       className="skills-tooltip"
                     />
-                  </>
+                  </React.Fragment>
                 ))}
               </motion.div>
             </motion.div>
